@@ -11,3 +11,8 @@ langchain-text-splitters
 langchain-core
 flashrank
 ragas
+langchain_experimental
+nltk
+contractions
+bs4
+pypdf
