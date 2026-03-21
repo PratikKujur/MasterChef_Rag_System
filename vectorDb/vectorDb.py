@@ -121,12 +121,15 @@ class SQLiteVecDB:
         return documents
 
     def save(self, path: str) -> None:
+        dest_path = Path(path) / "vectors.db"
+        os.makedirs(path, exist_ok=True)
+        
+        if Path(self.db_path).resolve() == dest_path.resolve():
+            return
+        
         if self._conn:
             self._conn.close()
             self._conn = None
-
-        dest_path = Path(path) / "vectors.db"
-        os.makedirs(path, exist_ok=True)
         shutil.copy2(self.db_path, dest_path)
 
     @classmethod

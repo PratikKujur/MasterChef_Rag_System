@@ -1,3 +1,4 @@
+import os
 from abc import ABC, abstractmethod
 from typing import List, Optional
 from langchain_core.documents import Document
@@ -43,9 +44,9 @@ class DataLoader:
         self._loader: Optional[BaseLoader] = None
 
     def _get_loader(self) -> BaseLoader:
-        ext = self.file_path.lower().split(".")[-1]
+        ext = os.path.splitext(self.file_path.lower())[1]
         if ext not in self._LOADERS:
-            raise ValueError(f"Unsupported file type: .{ext}")
+            raise ValueError(f"Unsupported file type: {ext}")
         return self._LOADERS[ext](self.file_path)
 
     def load_data(self) -> List[Document]:
