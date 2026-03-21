@@ -8,6 +8,7 @@ from langchain_core.documents import Document
 from offline_ingestion.pipeline import OfflineIngestionPipeline, load_vector_store
 from rag.retriever import VectorRetriever
 from rag.reranker import Reranker
+from rag.cache import query_cache, CacheEntry
 from core.config import DATA_PATH, VECTOR_STORE_PATH
 
 
@@ -93,7 +94,19 @@ def answer_query(
     llm: ChatOllama,
     use_rerank: bool = True,
     retrieval_k: int = 10,
+    use_cache: bool = True,
 ) -> str:
+    if use_cache:
+        cached = query_cache.get(query, retrieval_k, use_rerank)
+        if cached:
+            print(f"\n--- Query: {query} ---")
+            print("[CACHE HIT] Returning cached answer")
+            print(f"Retrieved {len(cached.documents)} documents from cache")
+            for i, doc in enumerate(cached.documents[:3], 1):
+                preview = doc["page_content"][:100] + "..." if len(doc["page_content"]) > 100 else doc["page_content"]
+                print(f"  {i}. {preview}")
+            return cached.answer
+
     print(f"\n--- Query: {query} ---\n")
     
     documents = retriever.retrieve(
@@ -112,6 +125,11 @@ def answer_query(
     chain = create_rag_chain(llm)
     answer = chain.invoke({"context": context, "question": query})
     
+    if use_cache:
+        doc_dicts = [{"page_content": doc.page_content, "metadata": doc.metadata} for doc in documents]
+        query_cache.set(query, answer, doc_dicts, retrieval_k, use_rerank)
+        print("[CACHE] Answer cached for 6 hours")
+    
     return answer
 
 
@@ -129,7 +147,7 @@ def main():
     print("\n[Step 3] Initializing Ollama LLM...")
     llm = init_llm(LLM_MODEL)
     
-    print("\n[Step 4] Testing Query...")
+    print("\n[Step 4] Testing Query (with caching)...")
     test_query = "What is a simple recipe for chicken?"
     answer = answer_query(
         query=test_query,
@@ -137,6 +155,7 @@ def main():
         llm=llm,
         use_rerank=True,
         retrieval_k=5,
+        use_cache=True,
     )
     
     print(f"\n--- Answer ---\n{answer}")
