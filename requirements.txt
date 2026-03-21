@@ -16,3 +16,4 @@ nltk
 contractions
 bs4
 pypdf
+sqlite-vec
