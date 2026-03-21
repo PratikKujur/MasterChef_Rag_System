@@ -18,3 +18,5 @@ contractions
 bs4
 pypdf
 sqlite-vec
+fastapi[standard]
+gradio

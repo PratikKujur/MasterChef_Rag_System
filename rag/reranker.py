@@ -62,7 +62,7 @@ class EmbeddingReranker(Reranker):
         self,
         query: str,
         documents: List[Document],
-        top_k: int = 10,
+        top_k: int = 3,
     ) -> List[tuple[Document, float]]:
         if not documents:
             return []

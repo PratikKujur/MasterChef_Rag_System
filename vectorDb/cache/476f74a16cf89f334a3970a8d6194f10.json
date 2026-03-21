@@ -1,0 +1,94 @@
+{
+  "query": "give top beef dishes\n",
+  "answer": "Based on the provided context from the MasterChef cookbook, here are some top beef dishes mentioned:\n\n1. Fillet Beef with Honeyed Parsnips and Horseradish Mushroom Marsala Sauce (Page 219)\n2. Fillet Beef with Courgettes and Gravy (Page 220)\n\nThese two recipes are highlighted as popular beef dishes in the cookbook.",
+  "documents": [
+    {
+      "page_content": "218 meat 4 llets beef steak 175g 6oz 2 large parsnips peeled trimmed 60g 2oz salted butter 2 tbsp clear honey 2 shallots nely chopped 100g 3 12oz small chanterelles 1 preheat oven 190c 375fgas 5 cut parsnip half widthways cut top halves 4 r emove core cut bottom halves 2 end 12 evensized pieces parsnip 2 put half butter honey roasting tin place oven f 2 minutes melt add parsnips toss well coated cook 2025 minutes crisp golden turning halfway cooking 3 heat remaining butter frying pan fry shallots mushrooms 23 minutes softened remo pan set aside 4 put steaks hot pan fry 3 minutes side medium rar e nish 5 meanwhile steam peas savoy cabbage 34 minutes tender 6 remo steaks pan leave rest warmed plates return shallots mushrooms pan add mar sala wine 7 mix together crme frache horseradish sauce bowl stir mushroom mar sala sauce heat 35 minutes thickened slightly piping hot 8 remove vegetables steamer stir mushroom marsala horser adish sauce serve steak honeyed parsnips 1 tbsp olive oil 115g 4oz peas 14 savoy cabbage cored nely shredded 200ml 7 oz marsala wine 300ml 10 oz crme frache 5 tbsp horseradish sauce preparation time 20 minutes cooking time 30 minutes serves 4 fillet beef honeyed parsnips horseradish mushroom marsala sauce william leigh retail designer turned food writer 2007 seminalist",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 219,
+        "page_label": "219"
+      }
+    },
+    {
+      "page_content": "meat 219 fillet beef horseradish mash courgettes gravy helen cristofoli pr consultant 2005 quarternalist 1 heat oven 130c 250fgas 12 horseradish mash rinse potato pieces water get rid surface starch put cold water bring boil saucepan pinch salt boil 15 minutes potatoes tender drain colander put colander top pan hob potatoes dry little 2 transfer bowl cream potatoes warm milk salt white pepper butter using either potato masher el ectric whisk add horseradish sauce stir place oven keep warm 3 cook courgettes brush 2 tbsp olive oil sprinkle salt black pepper sear batches griddle pan f 5 minutes side cooked keep warm oven 4 put stock wine saucepan bring boil lower heat let gravy r educe half 5 meanwhile rub beef steaks remaining olive oil season salt pepper heat frying pan 5 minutes v ery hot sear steaks sides cook 3 minutes side medium rare nish remove pan leave rest 6 assemble dish place mound horseradish mash middle plate top spoon horser adish sauce put steak top pile courgettes around potato one side pour gravy 4 llets beef steak 200g 7oz 4cm 112in thick 4 courgettes cut diagonally 6 slices 1cm 12in thick 3 tbsp olive oil 300ml 10 oz beef stock 100ml 3 12 oz fullbodied red wine horseradish mash 550g 114lb desire king edward potatoes see mastertip p197 peeled diced salt white black pepper 100ml 3 12 oz whole milk warmed 15g 12oz salted butter 1 tbsp horseradish sauce plus 4 tsp serve preparation time 40 minutes cooking time 1 hour serves 4",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 220,
+        "page_label": "220"
+      }
+    },
+    {
+      "page_content": "222 meat 4 llets beef steak 175g 6oz 1 tbsp olive oil colcannon 550g 114lb white potatoes good mashing variety see mastertip p197 peeled chopped 100g 3 12oz salted butter 3 tbsp whole milk warmed 200g 7oz curly kale cut small strips salt freshly ground black pepper 1 make colcannon bring large saucepan salted water boil add potatoes simmer 20 minutes soft dr pass ricer add butter milk bring another large pan salted water boil add kale cook 10 minutes tender soft drain thoroughly add mash mix season salt pepper keep warm 2 red wine jus heat butter ovenproof frying pan add shallot halv es pinch sugar stir leave sweat 20 minutes low heat add wine pan simmer 12 minutes add stock remaining sugar butter season well salt pepper reduce saucelike consistency coats back spoon pass sieve 3 vegetables put carrots saucepan butter brown sugar cover pan let carrots steam juices 10 minutes tender bring another saucepan salted water boil blanch broccoli 5 minutes cooked refresh iced water drain ready serve reheat quickly boiling water 4 season beef sides rub oil heat frying pan hot sear beef cook f 3 minutes side mediumrare nish leave rest minutes 5 arrange serving colcannon plate top llet steak arrange vegetabl es attractively around edge either pour little jus steaks serve separate sauceboat red wine jus 25g scant 1oz salted butter 1 shallot halved 1 tbsp caster sugar 150ml 5 oz red wine 100ml 3 12 oz beef stock vegetables 12 chantenay carrots cut half lengthways 50g 134oz salted butter 1 tbsp light soft brown sugar 1 large head broccoli chopped 50g 1 34oz unsalted butter preparation time 20 minutes cooking time 40 minutes serves 4 fillet beef red wine jus colcannon carrots broccoli jonny stevenson single father two head chef 2008 nalist made mashed potatoes kale cabbage butter salt pepper colcannon traditional irish dish sometimes cream leeks ham irish bacon added variety extra avour master tip colcannon",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 223,
+        "page_label": "223"
+      }
+    },
+    {
+      "page_content": "214 meat fillet steak wasabi sauce pak choi 1 bring steaks room temperature season meat well rub 1 tsp olive oil per st eak place 2 time hot frying pan along butter cooking 2212 minutes side depending like cooked timing rare allow rest warm place 5 minutes 2 meanwhile make sauce heat half butter saucepan add shallots garlic sweat f 5 minutes soften colour 3 add remaining butter continue infuse 23 minutes stir white wine little time add cream season salt pepper tas te add wasabi paste bring sauce gentle simmer 4 cook pak choi place steamer basket pan boiling water cov er steam 68 minutes tender 5 serve strain wasabi sauce pour steaks add pak choi alongside andi peters presenter producer 2008 celebrity nalist preparation time 5 minutes cooking time 30 minutes serves 4 4 llets beef steak 175g 6oz salt freshly ground black pepper 2 tbsp olive oil 15g 12oz salted butter 2 heads pak choi halved lengthways wasabi sauce 25g scant 1oz salted butter 2 shallots chopped 1 garlic clove chopped 3 tbsp white wine 200ml 7 oz double cream 1 tbsp wasabi paste wasabi light green paste accompanies sushi made japanese equivalent horseradish plant fresh wasabi short supply japanese brands tubed wasabi combine real thing western horseradish best avour achieved adding sauce use master tip wasabi sauce",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 215,
+        "page_label": "215"
+      }
+    },
+    {
+      "page_content": "meat 199 gregg wallace rather special like palate carousel ride avours keep coming mouth incredible cor 5 bring potatoes boil pan salted water cook 1215 minutes tender drain c ool slightly handle slice rounds 5mm 14in thick heat oil butter frying pan fry potato slices generous amount seasoning 1015 minutes medium heat ipping often ensure turn golden brown sides finally scatter chopped parsley 6 caponata fry aubergine batches 2 tbsp oil browned ver set aside cool remaining oil fry onion celery 5 minutes soften add tomatoes simmer 10 minutes season well stir olives capers 7 small bowl mix together vinegar sugar stir dissolv e add pan along fried aubergine 112 tbsp water cover lid cook everything 10 minutes liquid absorbed stir parsley nish 8 come back lamb brush piece loin mustar press onto rosemary lemon zest crust place baking sheet crumbside place oven cook high shelf 68 minutes 9 remove lamb oven leave rest minutes slicing piec e 3 arranging bed sauted potatoes spoon caponata onto plate nally drizzle around sherry sauce serve",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 200,
+        "page_label": "200"
+      }
+    }
+  ],
+  "timestamp": 1774091262.8663485,
+  "retrieval_k": 5,
+  "use_rerank": true
+}

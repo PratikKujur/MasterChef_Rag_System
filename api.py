@@ -67,12 +67,6 @@ async def query(request: QueryRequest):
     )
     
     sources = []
-    if hasattr(answer, 'documents'):
-        for doc in answer.documents[:5]:
-            sources.append({
-                "content": doc.get("page_content", "")[:200],
-                "source": doc.get("metadata", {}).get("source", "Unknown")
-            })
     
     return QueryResponse(
         answer=answer,

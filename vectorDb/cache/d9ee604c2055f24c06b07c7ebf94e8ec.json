@@ -1,0 +1,179 @@
+{
+  "query": "give me list of chicken dishes from masterchef",
+  "answer": "I've searched through the provided context and extracted a list of chicken dishes mentioned in the MasterChef cookbook. Here are the results:\n\n1. Chicken Breast with Sesame Seeds and Mango Hollandaise (Recipe 160)\n2. Mediterranean Stuffing with Rosemary and Vermouth (Recipe 167)\n3. Pan-Fried Chicken Breast with Orange-Glazed Sausage and Celeriac Puree (Recipe 178)\n\nPlease note that these are the only chicken dishes mentioned in the provided context, so this list might not be exhaustive. If you're looking for more recipes or information, I recommend exploring other sources or searching through the cookbook itself.",
+  "documents": [
+    {
+      "page_content": "250 best recipes masterchef series masterchef cookbook",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 0,
+        "page_label": "CA"
+      }
+    },
+    {
+      "page_content": "masterchefcookbook 250 best recipes masterchef series",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 3,
+        "page_label": "3"
+      }
+    },
+    {
+      "page_content": "184 poultry 70cl bottle pinot noir 300ml 10 oz madeira wine 1 duck carcass much fat removed possible 2 litres 3 12 pints chicken stock see mastertip p21 1 carrot nely diced 1 leek nely diced 1 celery stick nely diced 2 banana shallots diced bouquet garni bay leaf sprig thyme parsley stalks star anise 25g scant 1oz unsalted butter pinch nely chopped rosemary vegetables 1 leek white parts sliced julienne strips 100ml 312 oz whole milk 1 preheat oven 220c 425fgas 7 pour wines heavy pan simmer reduce thir meanwhile roast duck carcass oven 20 minutes place carcass large pan add stock vegetables bouquet garni bring boil skim froth add wine simmer liquor reduced half strain stock ne sieve pour half clean pan freeze rest another time reduce half 2 soak leek milk 10 minutes drain coat 3 boil potatoes salted water 1520 minutes tender drain return pan c cling lm leave skins slide easily smoke see mastertip p196 set aside 4 place duck breasts cold frying pan skinside cook medium heat f 10 minutes skin crispy turn cook 5 minutes leave rest 10 minutes 5 poach baby turnips chicken stock 20 minutes tender lift keep warm blanch char leaves stock 5 minutes tender heat oil deepfat fryer fry leek julienne crisp drain kitchen paper crush potatoes small pan drizzle olive oil season stir chives 45g 112oz rice 810 baby turnips depending size handful swiss chard leaves torn vegetable oil deepfrying 500ml 16 oz chicken stock knob unsalted butter melted potatoes 225g 8oz small waxy potatoes 50g 2oz oak chips smoking drizzle extra virgin olive oil 2 tsp snipped fresh chives salt freshly ground black pepper duck breasts 2 large duck breasts skin scored pinch eur de sel see mastertip p96 sea salt preparation time 1 hour cooking time 1 hour 30 minutes serves 4 duck breast buttered baby turnips duck jus steven wallis creative director 2007 champion",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 185,
+        "page_label": "185"
+      }
+    },
+    {
+      "page_content": "poultry 167 4 chicken breasts skinless 50g 1 34oz butter 1 garlic clove nely chopped stuffing 2 slices prosciutto nely chopped 10 green black olives nely chopped 6 sundried tomatoes oil drained nely chopped 1 cut small llets chicken breasts chop nely small pan melt 25g scant 1oz butter add garlic cook 1 minute add chopped chicken llets c ook another 2 minutes remove heat stand bowl cold water cool quickly 2 mix prosciutto olives tomatoes oregano chopped chicken llets garlic season tas te salt pepper sharp narrowbladed knife cut pocket thickest part chicken breasts push stufng mix bring meat together around see mastertip p163 3 preheat oven 190c 375fgas 5 lay 4 large squares foil baking sheet heat remaining butter oliv e oil small frying pan brown chicken breasts sides lift place foil squares lift foil round sides seal yet 4 put dry vermouth quince jelly rosemary frying pan return heat simmer jell melted pour chicken seal parcels place oven 2025 minutes end cooking time remove oven open small hole one end parcels carefully pour juices small pan reseal hole put chicken warm place rest boil juices reduced half 5 serve place chicken breasts 4 plates pour juices ov er 2 tbsp nely chopped fresh oregano leaves 12 tsp dried salt freshly ground black pepper 1 tbsp olive oil sauce 250ml 8 oz noilly prat dry vermouth 2 tbsp quince jelly 1 tbsp nely chopped rosemary preparation time 40 minutes cooking time 40 minutes serves 4 chicken mediterranean stuffing rosemary vermouth quince sauce katherine haworth housekeeper 2005 quarternalist",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 168,
+        "page_label": "168"
+      }
+    },
+    {
+      "page_content": "262 game soften vegetables allow brown place birds top vegetables roast oven 30 minutes cooked still moist remove partridges dish also remove string keep warm 5 sauce add ingredients vegetables left roasting tin bring boil r educe half thicken strain liquid add 1 tsp butter shine 6 make spiced pears peel halve core pears melt butter sugar shallow pan saut pear hal ves cutside 10 minutes golden brown 7 heat chestnuts quickly melted butter pan 8 serve place partridge plate unwrap cabbage parcels arr ange 3 parcels plate half spiced pear scatter chestnuts serve sauce separately 4 whole young partridges crowns prepared butcher keep trimmings feet heads necks removed see also mastertip p106 2 large maris piper potatoes see mastertip p197 4 tbsp olive oil 12 strips lard streaky bacon rashers sea salt nely ground black pepper 60g 2oz salted butter salsify ceps 200ml 7 oz game stock see mastertip p275 1 make salsify ceps put game stock saucepan along 2 sprigs thyme lemon juic e half lemon garlic bring simmer 2 peel salsify cut lengths pan add salsify stock al ong enough hot water cover salsify simmer 2025 minutes tender drain cut salsify halves lengthwise 25cm 1in pieces diagonal 3 sprigs thyme juice 12 lemon plus 12 lemon 1 garlic clove crushed 2 roots black salsify see mastertip opposite 4 large ceps 15g 12oz salted butter plus knob 1 tbsp olive oil 2 shallots nely chopped game jus 300ml 10 oz game stock 4 tbsp armagnac 8 pitted prunes preparation time 1 hour cooking time 1 hour serves 4 roast partridge game jus gillian wylie property developer turned chef 2007 quarternalist",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 263,
+        "page_label": "263"
+      }
+    },
+    {
+      "page_content": "160 poultry 4 chicken breasts skinned 2 large egg yolks salt freshly ground black pepper 1 tbsp lemon juice 1 tbsp white wine vinegar 125g 4 12oz salted butter 1 remove chicken fridge least 30 minutes preparation 2 make hollandaise place egg yolks blender salt pepper taste bl end thoroughly heat lemon juice vinegar simmering point small saucepan remove pan heat switch blender pour hot lemon liquid vent top steady stream switch blender 3 saucepan melt butter low heat blender running befor e add butter egg mixture steady stream mixture look like runny mayonnaise pour clean bowl 4 add chopped mango blender blitz smooth pured stir hollandaise co ver cling lm set aside 5 spread sesame seeds plate press chicken breasts onto c oating one evenly melt oil butter frying pan medium heat taking care butter brown add chicken breasts fry gently sides cooked 58 minutes side point butter pan look brown burnt meanwhile steam broccoli tender 8 minutes 6 return mango hollandaise clean saucepan reheat gently taking car e let bubble separate put sliced chicken breasts plates serve hollandaise spooned dish goes well stirfried chinese greens purple sprouting broccoli little soya sauce 1 ripe mango peeled stoned chopped see mastertip left 2 tbsp sesame seeds 1 tbsp groundnut oil 25g scant 1oz butter 400g 14oz purple sprouting broccoli preparation time 15 minutes cooking time 20 minutes serves 4 panfried chicken breast sesame seeds mango hollandaise jaye wakelin interior designer 2007 quarternalist mangoes large amounts sticky juice sometimes said best peeled bath helps methodical though one way slice sides close stone possible score esh peel cube shapes press thumbs push esh forward skin common method pare away peel make series cubeshaped cuts esh easily cut stone master tip preparing mangoes",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 161,
+        "page_label": "161"
+      }
+    },
+    {
+      "page_content": "starters 27 indonesian noodle soup 1 put stock mirin nam pla garlic vinegar chilli lime juice zest large pan bring boil turn wn heat simmer 10 minutes 2 add chicken return boil simmer 10 minutes checking taste add sugar dark soy sauce worcestershire sauce 3 add spring onions pak choi red pepper pan add noodles pan remaining dic ed ingredients cook 3 minutes serving garnish coriander leaves serve boiled rice accompaniment simon spindley service manager 2006 quarternalist preparation time 30 minutes cooking time 10 minutes serves 4 1 litre 134 pints clear chicken stock see mastertip p21 omit roasting stage 2 tbsp mirin japanese rice wine 2 tbsp nam pla thai sh sauce 1 garlic clove nely chopped 2 tbsp white wine vinegar 1 small fresh red chilli deseeded nely diced grated zest juice 1 lime 1 small chicken breast llet nely diced 2 tbsp white sugar 2 tbsp dark soy sauce 2 tbsp worcestershire sauce 3 spring onions nely diced 1 head pak choi nely diced 1 red pepper deseeded nely diced 30g 1oz ne dried rice noodles 50g 1 34oz ne green beans diced 300g 10oz chestnut mushrooms diced sprigs coriander chillies burn hands well mouth wear gloves handle cover ngers little oil act barrier never touch area near eyes washed hands skin sensitive master tip handling chillies",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 28,
+        "page_label": "28"
+      }
+    },
+    {
+      "page_content": "178 poultry orange maple glazed duck breast vanilla celeriac pure 1 remove excess skin duck breasts cut strips deepfry 180c 350f crispy golden set aside score skin br easts crisscross leave fridge 2 make sauce lightly heat coriander seeds cashew nuts frying pan 4 minutes tossing oc casionally add sesame seeds desiccated coconut heat 45 minutes golden brown stirring often put mixture blender tamarind paste blitz little water paste formed put paste pan add stock reduce gravylike consistency pass sieve 3 glaze place ingredients pan reduce golden light syrup consist ency sieve set aside 4 make pure put celeriac nonstick pan milk vanilla pod bring boil simmer 12 minutes c eleriac cooked take heat remove vanilla pod blitz celeriac blender adding cream maple syrup pass sieve return clean pan reheat serving james hollister chef de partie 2008 professionals quarternalist preparation time 1 hour 30 minutes cooking time 25 minutes serves 4 4 duck breasts preferably large gressinghams vegetable oil frying sauce 30g 1oz coriander seeds 30g 1oz cashew nuts roughly chopped 40g 1 14oz white sesame seeds 50g 134oz desiccated coconut 1 tbsp tamarind paste 2 litres 3 12 pints duck chicken stock see mastertip p21 juice 1 navel orange 10g 14oz unsalted butter glaze 3 tbsp clear honey 5 tbsp maple syrup juice 2 navel oranges 2 star anise 1cm 12in piece fresh root ginger grated 1 long red chilli deseeded roughly chopped 3 tbsp water pure 1 celeriac root 550g 114lb roughly chopped 500ml 16 oz skimmed milk 1 vanilla pod deseeded 100ml 3 12 oz double cream 4 tbsp maple syrup garnish 1 medium potato preferably desire starchy variety see mastertip p197 peeled 1 black trufe potato peeled 50g 1 34oz morel mushrooms sliced lengthways rings 20g 34oz unsalted butter 2 tsp mild olive oil 250g 9oz garlic leaf",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 179,
+        "page_label": "179"
+      }
+    },
+    {
+      "page_content": "poultry 183 use one half pure half add milk bring boil foam using hand blender 5 sauce place shallots garlic chilli heavy saucepan oil sweat f 45 minutes without colouring add port star anise bring boil simmer 2030 minutes port reduced twothirds add veal stock chicken stock thyme simmer 3045 minutes sauce thicker consistency remove thyme sprigs serving 6 vegetable garnish blanch green beans 2 minutes put artichoke batons hot dry frying pan begin c olour add butter girolles green beans season well toss lightly add herbs vegetables cooked place kitchen paper drain 7 slice 2 reserved artichokes thinly using mandolin deepfry oil light brown remo oil drain kitchen paper sprinkle salt 8 wilted greens melt butter heavy pan medium heat add greens season well saute f 45 minutes adding water required drain colander serving 9 place duck breasts mediumhot ovenproof frying pan skin side skin bro wned turn breast cook 35 minutes esh side turn back onto skin side add butter garlic thyme pan cover foil cook oven 1214 minutes remove oven lift foil turn breasts back onto esh side avoid skin softening cover foil leave rest 58 minutes serving slice sprinkle small amount sea salt 10 serve arrange greens artichoke pure foam 4 serving plates place duck top drizzle sauc e sprinkle vegetable garnish top artichoke crisps",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 184,
+        "page_label": "184"
+      }
+    },
+    {
+      "page_content": "vegetables fish 155 seared tuna asian glaze 1 potato peeler shave carrots courgettes long strips place mixing bo wl 3 tbsp soy sauce juice zest 112 limes 4 tbsp sugar 2 put potatoes large pan boiling water cover white miso paste cook 10 minutes potatoes ar e tender drain 3 place mirin sake remaining sugar soy sauce rice wine vinegar juice zes remaining limes frying pan medium heat reduce syrup consistency 10 minutes 4 season tuna salt pepper heat another frying pan hot add tuna sear sides 3 minutes 5 onc e tuna cooked transfer frying pan containing glaze turn coat heat ribbon vegetabl es glaze 2 minutes serve tuna potatoes angela kenny administrator turned chef 2009 seminalist preparation time 20 minutes cooking time 8 minutes serves 4 4 carrots 4 courgettes 8 tbsp dark soy sauce 4 limes 6 tbsp demerara sugar 1216 charlotte potatoes see mastertip p197 peeled sliced discs 60ml 2 oz white miso paste see mastertip right 60ml 2 oz mirin 90ml 3 12 oz dry sake 2 tbsp rice wine vinegar 1 tbsp oil 4 tuna steaks 175200g 67oz salt freshly ground black pepper miso paste japanese seasoning made fermenting barley rice soya beans last common used variety dishes makes excellent soup avour depends region produced main ingredient white miso common type found throughout japan worldwide master tip miso paste",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 156,
+        "page_label": "156"
+      }
+    }
+  ],
+  "timestamp": 1774089786.640077,
+  "retrieval_k": 10,
+  "use_rerank": true
+}

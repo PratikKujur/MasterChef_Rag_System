@@ -1,0 +1,94 @@
+{
+  "query": "give me top 5 chicken dishes\n",
+  "answer": "Based on the cookbook context, I can provide you with the top 5 chicken dishes mentioned:\n\n1. Panfried Chicken Breast with Sesame Seeds and Mango Hollandaise (Document 2, Page 160)\n2. Duck Breast with Buttered Baby Turnips and Duck Jus (Document 1, Page 186)\n3. Chicken Breasts with Roast Tomatoes and Garlic Crust (Document not specified, but mentioned on Page 398 of the cookbook)\n4. Stuffed Chicken Breast with Wild Mushrooms, Hazelnuts, and Pan Haggerty (Document not specified, but mentioned on Page 16870 of the cookbook)\n5. Chicken Tenderloin with Parsnip Mash, Caramelized Apples, and Watercress Salad (Document not specified, but mentioned on Page 237 of the cookbook)\n\nPlease note that these are just a few examples from the cookbook, and there might be more delicious chicken dishes hidden within its pages!",
+  "documents": [
+    {
+      "page_content": "186 poultry 6 reheat duck jus bubbling whisk unsalted butter add rosemary taste adjust seasoning 7 spoon potatoes warm plates top swiss chard slice duck breas ts sprinkle little eur de sel arrange top chard arrange baby turnips around plate glaze little melted butter chicken stock spoon duck jus around nish neat pile leek crisps top 4 duck breasts 225g 8oz 1 bunch watercress serve cabbage 1 small red cabbage cored nely chopped 1 large 2 small red onions nely chopped 100g 312oz unsalted butter cut cubes 150ml 5 oz red wine vinegar 50g 1 34oz clear honey 100g 312oz demerara sugar 1 preheat oven 200c 400fgas 6 place braised red cabbage ingredients r oasting tin mix well cover foil put oven 1 hour stirring time time 2 put sweet potato baking tray garlic toss oil salt pepper put oven f 40 minutes soft boil maris piper potatoes salted water soft 3 meanwhile place duck breasts skinside cold ovenpr oof frying pan fry medium heat 56 minutes golden brown turn cook another 2 minutes transfer oven 8 minutes allow stand 3 minutes 4 mash sweet potatoes maris piper potatoes leaving garlic beat butter cream check seasoning leave pan lid r eheat low heat serving 5 serve cut duck breast 3 equal slices diagonally serve bed watercr ess remove bay leaf thyme cabbage serve individual ramekins 1 bay leaf sprigs thyme salt freshly ground black pepper sweet potato mash 500g 1lb 2oz sweet potatoes peeled cut large chunks 2 garlic cloves whole olive oil 500g 1lb 2oz maris piper potatoes peeled cut pieces 25g scant 1oz butter splash double cream preparation time 30 minutes cooking time 1 hour serves 4 duck breasts sweet potato mash christopher bisson actor 2007 celebrity quarternalist",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 187,
+        "page_label": "187"
+      }
+    },
+    {
+      "page_content": "160 poultry 4 chicken breasts skinned 2 large egg yolks salt freshly ground black pepper 1 tbsp lemon juice 1 tbsp white wine vinegar 125g 4 12oz salted butter 1 remove chicken fridge least 30 minutes preparation 2 make hollandaise place egg yolks blender salt pepper taste bl end thoroughly heat lemon juice vinegar simmering point small saucepan remove pan heat switch blender pour hot lemon liquid vent top steady stream switch blender 3 saucepan melt butter low heat blender running befor e add butter egg mixture steady stream mixture look like runny mayonnaise pour clean bowl 4 add chopped mango blender blitz smooth pured stir hollandaise co ver cling lm set aside 5 spread sesame seeds plate press chicken breasts onto c oating one evenly melt oil butter frying pan medium heat taking care butter brown add chicken breasts fry gently sides cooked 58 minutes side point butter pan look brown burnt meanwhile steam broccoli tender 8 minutes 6 return mango hollandaise clean saucepan reheat gently taking car e let bubble separate put sliced chicken breasts plates serve hollandaise spooned dish goes well stirfried chinese greens purple sprouting broccoli little soya sauce 1 ripe mango peeled stoned chopped see mastertip left 2 tbsp sesame seeds 1 tbsp groundnut oil 25g scant 1oz butter 400g 14oz purple sprouting broccoli preparation time 15 minutes cooking time 20 minutes serves 4 panfried chicken breast sesame seeds mango hollandaise jaye wakelin interior designer 2007 quarternalist mangoes large amounts sticky juice sometimes said best peeled bath helps methodical though one way slice sides close stone possible score esh peel cube shapes press thumbs push esh forward skin common method pare away peel make series cubeshaped cuts esh easily cut stone master tip preparing mangoes",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 161,
+        "page_label": "161"
+      }
+    },
+    {
+      "page_content": "397index gazpacho mediterranean scones 23 roast tomatoes 567 83 spicy tomato sauce 723 stuffed tomatoes 689 tomato chutney 1467 tomato consomm 91 tomato garlic crust 2201 tomato saffron vinaigrette 140 tomato tarragon vinaigrette 1423 torte apple pear 367 tortellini chicken asparagus tortellini poached quails eggs 989 veal thyme boudin blanc veal sweetbreads served cornfed chicken tortellini 2323 tries apricot cardamom 3067 caribbean trie glories 310 summer fruit 3089 tiramisu 311 trompettes noires roasted llet beef 223 223 trout hot smoked wiltshire trout celeriac apple remoulade grain mustard dressing 88 poached sea trout asparagus mashed potato sorrel sauce 156 trufes 231 chocolate paprika sorbet marshmallows trufe pine nut sugar passion fruit syrup dessert 3389 fillet veal creamy trufe sauce mushrooms asparagus 231 guinea fowl ballontine leg madeira jus baby leeks mashed potato summer trufe 2589 salad marinated beetroot trufe honey goats cheese mash 38 trufe foam 989 trufe honey 38 trufe oil 22 trufed brie 116 tuiles aniseed 381 chocolate 3545 hazelnut 3467 tuna seared asian glaze 1545 seared chipotle mayonnaise 94 sesame crusted horseradish mousse 93 turbot roast lobster cream sauce 1423 turbot fennel hollandaise 141 turbot petit pois bonne femme sauted potatoes 144 turnips caramelized 16870 chicken stuffed wild mushrooms hazelnuts pan haggerty 16870 duck breast buttered baby turnips duck jus 1846 fallow venison roast squash potatoes baby turnips gravy 272 roasted rack venison grand veneur sauce root vegetables 2701 spiced best end lamb bed wild rice thyme jus 213 spiced magret duck roasted root vegetables 1889 v ushka beetroot soured cream 54 vanilla desserts vanilla cream 333 3523 vanilla crme frache 351 vanilla ice cream 2989 328 3467 vanilla mascarpone cream 315 vanilla pastry cream 360 vanilla souf raspberry passion fruit coulis 323 whisky vanilla cream 3523 vanilla savoury fennel vanilla sauce 1345 vanilla celeriac pure 1789 vanilla cream sauce 87 veal fillet veal creamy trufe sauce mushrooms asparagus 231 veal roulles stuffed spinach gruyre 230 veal thyme boudin blanc veal sweetbreads served cornfed chicken tortellini 2323 vegetables see also specic vegetables eg carrots blanching 200 vegetable terrine 901 vegetables la greque 645 velout 128 lemongrass velout 1467 venison 272 carpaccio venison watercress salad raspberry vinaigrette 1089 fallow venison roast squash potatoes baby turnips gravy 272 roast saddle wild venison savoy cabbage roast potatoes celeriac beetroot jus 2789 roasted rack venison grand veneur sauce root vegetables 2701 seared saddle venison port balsamic reduction 2767 teainfused venison pickled red cabbage roast potatoes rich port sauce 2689 venison jus 2745 venison loin rostis watercress pure roasted beetroot 2745 venison pink peppercorn sauce cavalo nero daupinoise potatoes 273 verjuice 280 vermicelli spiced semolina vermicelli 319 vinaigrettes see dressings vinaigrettes vol au vent leek wild mushroom 55 w walnuts halibut walnut crust leeks cockle sauce 136 scallops apple walnut sauce 62 walnut pesto 11415 walnut scones 20 warmed goats cheese salad walnuts pomegranate dressing 41 wasabi fillet steak wasabi sauce pak choi 214 214 water chestnuts pear water chestnut salad 2801 watercress carpaccio venison watercress salad raspberry vinaigrette 1089 leek wild mushroom vol au vent 55 pork tenderloin parsnip mash caramelized apples watercress salad 237 rocket watercress salad 93 venison loin rostis watercress pure roasted beetroot 2745 warm mediterranean salad braised fennel pancetta croutons 445 watercress pear goats cheese salad honey mustard dressing 40 wholewheat puffs 1745 wild garlic 206 cannon lamb roasted aubergine wild garlic thyme jus 2089 roast lamb spinach mousse wild garlic pure mushroom duxelles fondant potato balsamic jus 2046 wild mushrooms see mushrooms wild rice spiced best end lamb bed wild rice thyme jus 213 wonton skins ushka beetroot soured cream 54 yogurt desserts black redcurrant fool ginger biscuits 2901 marbled winter fruit fool dessert 292 summer fruit compote scented cream 288 yogurt savoury aubergine raita 1745 cacik 210 gnocchi blue cheese greek yoghurt pine nut sauce 11820 harissa sauce 21011 pork bafat okra pachadi rice bread 2401",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 398,
+        "page_label": "398"
+      }
+    },
+    {
+      "page_content": "starters 27 indonesian noodle soup 1 put stock mirin nam pla garlic vinegar chilli lime juice zest large pan bring boil turn wn heat simmer 10 minutes 2 add chicken return boil simmer 10 minutes checking taste add sugar dark soy sauce worcestershire sauce 3 add spring onions pak choi red pepper pan add noodles pan remaining dic ed ingredients cook 3 minutes serving garnish coriander leaves serve boiled rice accompaniment simon spindley service manager 2006 quarternalist preparation time 30 minutes cooking time 10 minutes serves 4 1 litre 134 pints clear chicken stock see mastertip p21 omit roasting stage 2 tbsp mirin japanese rice wine 2 tbsp nam pla thai sh sauce 1 garlic clove nely chopped 2 tbsp white wine vinegar 1 small fresh red chilli deseeded nely diced grated zest juice 1 lime 1 small chicken breast llet nely diced 2 tbsp white sugar 2 tbsp dark soy sauce 2 tbsp worcestershire sauce 3 spring onions nely diced 1 head pak choi nely diced 1 red pepper deseeded nely diced 30g 1oz ne dried rice noodles 50g 1 34oz ne green beans diced 300g 10oz chestnut mushrooms diced sprigs coriander chillies burn hands well mouth wear gloves handle cover ngers little oil act barrier never touch area near eyes washed hands skin sensitive master tip handling chillies",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 28,
+        "page_label": "28"
+      }
+    },
+    {
+      "page_content": "vegetables fish 125 heatproof bowl set bowl saucepan warm boiling water whisk sauce occasionally prevent splitting 6 cook cod preheat oven 200c 400fgas 6 line baking sheet baking parchment pat c od llets dry kitchen paper dust patting excess season salt pepper heat oil butter frying pan sizzling fry cod skinside 23 minutes skin brown crisp transfer baking sheet skin side roast 56 minutes sh cooked 7 meanwhile melt butter kale wok large frying pan add garlic cook 1 minute add kal e cook 23 minutes warm season taste salt pepper squeeze lemon juice 8 serve put quenelle see mastertip p93 mashed potato onto plate sit piece cod skinside mash spoon mus tard butter sauce around top piece cod bunch cherry tomatoes serve kale alongside",
+      "metadata": {
+        "producer": "PyPDF",
+        "creator": "PyPDF",
+        "creationdate": "2012-01-28T22:35:38+00:00",
+        "author": "Dorling Kindersley",
+        "keywords": "9781405351706",
+        "moddate": "2017-05-15T02:12:13+02:00",
+        "subject": "Dorling Kindersley UK",
+        "title": "MasterChef Cookbook",
+        "source": "D:\\Projects\\MasterChef_Rag_System\\offline_ingestion\\RawData\\MasterChef-Cookbook-pdf.pdf",
+        "total_pages": 402,
+        "page": 126,
+        "page_label": "126"
+      }
+    }
+  ],
+  "timestamp": 1774090172.7496364,
+  "retrieval_k": 5,
+  "use_rerank": true
+}
