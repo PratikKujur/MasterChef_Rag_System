@@ -1,9 +1,10 @@
 import os
-from typing import List, Optional
+from typing import List, Optional, Tuple
 from langchain_ollama import ChatOllama
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.documents import Document
+from collections import deque
 
 from offline_ingestion.pipeline import OfflineIngestionPipeline, load_vector_store
 from rag.retriever import VectorRetriever
@@ -16,6 +17,7 @@ LLM_MODEL = "llama3"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 RERANKER_MODEL = "ms-marco-MiniLM-L-12-v2"
 VECTOR_STORE_EXISTS = os.path.exists(os.path.join(VECTOR_STORE_PATH, "vectors.db"))
+HISTORY_SIZE = 3
 
 
 def init_vector_store(force_recreate: bool = False) -> None:
@@ -70,6 +72,8 @@ def create_rag_chain(llm: ChatOllama):
         ("system", """You are a helpful cooking assistant. Use the following context from a cookbook to answer the user's question.
 If you cannot find the answer in the context, say that you don't have that information.
 
+{history}
+
 Context:
 {context}"""),
         ("human", "{question}"),
@@ -77,6 +81,18 @@ Context:
     
     chain = prompt | llm | StrOutputParser()
     return chain
+
+
+def format_history(history: deque) -> str:
+    if not history:
+        return "No previous conversation history."
+    
+    formatted = ["Previous conversation:\n"]
+    for i, (q, a) in enumerate(history, 1):
+        formatted.append(f"Turn {i}:")
+        formatted.append(f"  User: {q}")
+        formatted.append(f"  Assistant: {a}\n")
+    return "\n".join(formatted)
 
 
 def format_context(documents: List[Document]) -> str:
@@ -92,6 +108,7 @@ def answer_query(
     query: str,
     retriever: VectorRetriever,
     llm: ChatOllama,
+    history: deque,
     use_rerank: bool = True,
     retrieval_k: int = 10,
     use_cache: bool = True,
@@ -121,9 +138,14 @@ def answer_query(
         print(f"  {i}. {preview}")
     
     context = format_context(documents)
+    history_str = format_history(history)
     
     chain = create_rag_chain(llm)
-    answer = chain.invoke({"context": context, "question": query})
+    answer = chain.invoke({"context": context, "question": query, "history": history_str})
+    
+    if len(history) >= HISTORY_SIZE:
+        history.popleft()
+    history.append((query, answer))
     
     if use_cache:
         doc_dicts = [{"page_content": doc.page_content, "metadata": doc.metadata} for doc in documents]
@@ -147,18 +169,49 @@ def main():
     print("\n[Step 3] Initializing Ollama LLM...")
     llm = init_llm(LLM_MODEL)
     
+    conversation_history = deque(maxlen=HISTORY_SIZE)
+    
     print("\n[Step 4] Testing Query (with caching)...")
     test_query = "What is a simple recipe for chicken?"
     answer = answer_query(
         query=test_query,
         retriever=retriever,
         llm=llm,
+        history=conversation_history,
         use_rerank=True,
         retrieval_k=5,
         use_cache=True,
     )
     
     print(f"\n--- Answer ---\n{answer}")
+    
+    test_query2 = "Can I use turkey instead?"
+    answer2 = answer_query(
+        query=test_query2,
+        retriever=retriever,
+        llm=llm,
+        history=conversation_history,
+        use_rerank=True,
+        retrieval_k=5,
+        use_cache=True,
+    )
+    print(f"\n--- Answer ---\n{answer2}")
+    
+    test_query3 = "What spices do I need?"
+    answer3 = answer_query(
+        query=test_query3,
+        retriever=retriever,
+        llm=llm,
+        history=conversation_history,
+        use_rerank=True,
+        retrieval_k=5,
+        use_cache=True,
+    )
+    print(f"\n--- Answer ---\n{answer3}")
+    
+    print("\n--- Conversation History (last 3) ---")
+    print(format_history(conversation_history))
+    
     print("\n" + "=" * 60)
     print("RAG Pipeline Complete!")
     print("=" * 60)
