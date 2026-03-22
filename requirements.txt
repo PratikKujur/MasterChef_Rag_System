@@ -10,6 +10,7 @@ langchain-community
 langchain-text-splitters
 langchain-core
 langchain-ollama
+langchain-groq
 flashrank
 ragas
 langchain_experimental
@@ -20,3 +21,4 @@ pypdf
 sqlite-vec
 fastapi[standard]
 gradio
+python-dotenv

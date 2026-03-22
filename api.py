@@ -67,10 +67,18 @@ async def query(request: QueryRequest):
     
     sources = []
     for doc in result["documents"]:
+        if isinstance(doc, dict):
+            content = doc.get("page_content", "")[:200]
+            source = doc.get("metadata", {}).get("source", "Unknown")
+            page = doc.get("metadata", {}).get("page", "N/A")
+        else:
+            content = doc.page_content[:200]
+            source = doc.metadata.get("source", "Unknown")
+            page = doc.metadata.get("page", "N/A")
         sources.append({
-            "content": doc.page_content[:200],
-            "source": doc.metadata.get("source", "Unknown"),
-            "page": doc.metadata.get("page", "N/A")
+            "content": content,
+            "source": source,
+            "page": page
         })
     
     return QueryResponse(

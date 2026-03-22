@@ -5,10 +5,7 @@ import time
 from typing import Optional, Dict, Any
 from pathlib import Path
 from dataclasses import dataclass, asdict
-
-
-CACHE_DIR = os.path.join(os.getcwd(), "vectorDb", "cache")
-CACHE_TTL_SECONDS = 6 * 60 * 60
+from core.config import CACHE_DIR, CACHE_TTL_SECONDS
 
 
 @dataclass
@@ -24,7 +21,12 @@ class CacheEntry:
         return {
             "query": self.query,
             "answer": self.answer,
-            "documents": [doc if isinstance(doc, dict) else {"page_content": doc.page_content, "metadata": doc.metadata} for doc in self.documents],
+            "documents": [
+                doc
+                if isinstance(doc, dict)
+                else {"page_content": doc.page_content, "metadata": doc.metadata}
+                for doc in self.documents
+            ],
             "timestamp": self.timestamp,
             "retrieval_k": self.retrieval_k,
             "use_rerank": self.use_rerank,
@@ -56,24 +58,26 @@ class QueryCache:
     def __init__(self, ttl_seconds: int = CACHE_TTL_SECONDS):
         self.ttl = ttl_seconds
 
-    def get(self, query: str, retrieval_k: int = 10, use_rerank: bool = True) -> Optional[CacheEntry]:
+    def get(
+        self, query: str, retrieval_k: int = 10, use_rerank: bool = True
+    ) -> Optional[CacheEntry]:
         cache_key = _get_cache_key(query, retrieval_k, use_rerank)
         cache_path = _get_cache_path(cache_key)
-        
+
         if not cache_path.exists():
             return None
-        
+
         try:
             with open(cache_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
-            
+
             entry = CacheEntry.from_dict(data)
             age = time.time() - entry.timestamp
-            
+
             if age > self.ttl:
                 cache_path.unlink(missing_ok=True)
                 return None
-            
+
             return entry
         except (json.JSONDecodeError, KeyError, ValueError):
             return None
@@ -88,7 +92,7 @@ class QueryCache:
     ) -> None:
         cache_key = _get_cache_key(query, retrieval_k, use_rerank)
         cache_path = _get_cache_path(cache_key)
-        
+
         entry = CacheEntry(
             query=query,
             answer=answer,
@@ -97,7 +101,7 @@ class QueryCache:
             retrieval_k=retrieval_k,
             use_rerank=use_rerank,
         )
-        
+
         with open(cache_path, "w", encoding="utf-8") as f:
             json.dump(entry.to_dict(), f, ensure_ascii=False, indent=2)
 
