@@ -17,10 +17,10 @@ A Retrieval-Augmented Generation (RAG) system for answering cooking questions ba
                             ▼
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        LLM Service Layer                            │
-│                    (llm_service.py)                                │
-│         ChatGroq (if GROQ_API_KEY set)                             │
-│         ChatOllama (fallback)                                      │
-└────────────────────────────┬──────────────────────────────────────┘
+│                    (llm_service.py)                                 │
+│         ChatGroq (if GROQ_API_KEY set)                              │
+│         ChatOllama (fallback)                                       │
+└────────────────────────────┬────────────────────────────────────────┘
                              │
          ┌───────────────────┼───────────────────┐
          │                   │                   │
