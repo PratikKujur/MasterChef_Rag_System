@@ -2,41 +2,58 @@
 
 A Retrieval-Augmented Generation (RAG) system for answering cooking questions based on the MasterChef cookbook.
 
+## Features
+
+| Feature | Description |
+|---------|-------------|
+| **History Awareness** | Maintains conversation context using a 3-turn sliding window with LLM-based summarization for long conversations |
+| **Source Citation** | Every answer includes page number citations from the cookbook, e.g., `[Page 5]` |
+| **Embedding Cache** | Caches generated embeddings in SQLite to avoid recomputation on repeated queries |
+| **Reranking** | Uses FlashRank to rerank retrieval results for improved answer quality |
+
 ## System Design
 
 ```
-┌─────────────────────────────────────────────────────────────────────┐
-│                           User Interfaces                           │
-├──────────────────┬──────────────────┬───────────────────────────────┤
-│    Gradio UI     │  Telegram Bot   │      FastAPI Endpoint          │
-│     (ui.py)      │    (bot.py)     │        (api.py)                │
-└────────┬─────────┴────────┬─────────┴───────────────┬───────────────┘
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                              User Interfaces                                 │
+├──────────────────┬──────────────────┬────────────────────────────────────────┤
+│    Gradio UI     │  Telegram Bot    │         FastAPI Endpoint               │
+│     (ui.py)      │    (bot.py)      │            (api.py)                    │
+└────────┬─────────┴────────┬─────────┴────────────────┬───────────────────────┘
          │                  │                         │
          └──────────────────┼─────────────────────────┘
                             │
                             ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                        LLM Service Layer                            │
-│                    (llm_service.py)                                 │
-│         ChatGroq (if GROQ_API_KEY set)                              │
-│         ChatOllama (fallback)                                       │
-└────────────────────────────┬────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                         LLM Service Layer                                     │
+│                     (services/llm_service.py)                                 │
+│          ChatGroq (if GROQ_API_KEY) │ ChatOllama (fallback)                   │
+└────────────────────────────┬──────────────────────────────────────────────────┘
                              │
-         ┌───────────────────┼───────────────────┐
-         │                   │                   │
-         ▼                   ▼                   ▼
-┌─────────────────┐ ┌───────────────┐ ┌─────────────────────┐
-│   Retriever     │ │   Reranker    │ │  Embedder           │
-│ (retriever.py)  │ │ (reranker.py) │ │ (embedder.py)       │
-└────────┬────────┘ └───────┬───────┘ └──────────┬──────────┘
-         │                   │                     │
-         └───────────────────┼─────────────────────┘
-                             │
-                             ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                      Vector Store (SQLite)                          │
-│                       (vector_store.py)                             │
-└─────────────────────────────────────────────────────────────────────┘
+         ┌───────────────────┼───────────────────┬────────────────────────────┐
+         │                   │                   │                            │
+         ▼                   ▼                   │                            ▼
+┌─────────────────┐ ┌───────────────┐ ┌──────────┴──────┐┌────────────────────┐
+│     Cache       │ │   Retriever   │ │   History Mgr   │ │     Reranker      │
+│   (rag/cache)   │ │(rag/retriever)│ │  (3-window)     │ │   (rag/reranker)  │
+└────────┬────────┘ └───────┬───────┘ └─────────────────┘ └─────────┬─────────┘
+         │                  │                                       │
+         │                  │          ┌────────────────────────────┘
+         │                  │          │
+         │          ┌───────┴──────────┴──────────┐
+         │          │                             │
+         │          ▼                             ▼
+         │ ┌─────────────────┐        ┌─────────────────────────┐
+         └►│  Embedder       │        │   Vector Store          │
+           │ (rag/embedder)  │        │ (FAISS + SQLite-Vec)    │
+           └────────┬────────┘        └─────────────────────────┘
+                    │
+                    ▼
+           ┌────────────────┐
+           │  Embedding     │
+           │    Cache       │
+           │ (SQLite)       │
+           └────────────────┘
 ```
 
 ### Components
@@ -49,8 +66,12 @@ A Retrieval-Augmented Generation (RAG) system for answering cooking questions ba
 | **main.py** | Main entry point for running the application |
 | **services/llm_service.py** | LLM abstraction (ChatGroq/Ollama) |
 | **services/rag_service.py** | Core RAG orchestration logic |
-| **rag/** | Retrieval, embedding, reranking modules |
-| **vectorDb/** | Vector storage using FAISS + SQLite-Vec |
+| **rag/cache.py** | Embedding cache for query results |
+| **rag/embedder.py** | Sentence embedding generation |
+| **rag/retriever.py** | Document retrieval from vector store |
+| **rag/reranker.py** | FlashRank-based result reranking |
+| **rag/vector_store.py** | Vector storage (FAISS + SQLite-Vec) |
+| **vectorDb/** | Vector database management |
 | **offline_ingestion/** | PDF processing and data ingestion pipeline |
 
 ## How to Run Locally
@@ -58,7 +79,7 @@ A Retrieval-Augmented Generation (RAG) system for answering cooking questions ba
 ### Prerequisites
 
 1. **Python 3.10+**
-2. **Ollama** (optional, for local LLM)
+2. **Ollama** (optional, for local LLM, Note: Ollama letency depends on your hardware confriguration)
    - Install from [ollama.ai](https://ollama.ai)
    - Pull model: `ollama pull phi3`
 3. **API Keys** (see options below)
@@ -159,6 +180,7 @@ MasterChef_Rag_System/
 │   ├── llm_service.py      # LLM abstraction layer
 │   └── rag_service.py     # RAG pipeline logic
 ├── rag/
+│   ├── cache.py            # Embedding & result cache
 │   ├── embedder.py         # Sentence embedding
 │   ├── retriever.py        # Document retrieval
 │   ├── reranker.py         # Result reranking
